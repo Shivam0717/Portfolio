@@ -1175,6 +1175,14 @@ footer {
         flex-direction: column;
     }
 
+    .hero-images {
+        margin-top: 6rem;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+
     .btn {
         width: 100%;
         text-align: center;
