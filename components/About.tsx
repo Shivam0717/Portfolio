@@ -21,15 +21,30 @@ const About = () => {
             </p>
             <div className="stats-grid">
               <div className="stat-item">
-                <div className="stat-number">4+</div>
-                <div className="stat-label">Worked On</div>
+                <div className="stat-number">
+                  4{" "}
+                  <span style={{ paddingLeft: "2px", fontSize: "2rem" }}>
+                    +
+                  </span>
+                </div>
+                <div className="stat-label">Projects Contributed To</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">1.5+</div>
+                <div className="stat-number">
+                  1.5{" "}
+                  <span style={{ paddingLeft: "2px", fontSize: "2rem" }}>
+                    +
+                  </span>
+                </div>
                 <div className="stat-label">Years Experience</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">15+</div>
+                <div className="stat-number">
+                  10{" "}
+                  <span style={{ paddingLeft: "2px", fontSize: "2rem" }}>
+                    +
+                  </span>
+                </div>
                 <div className="stat-label">Technologies</div>
               </div>
             </div>
